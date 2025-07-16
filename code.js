@@ -1,32 +1,32 @@
 onEvent("Welcome", "click", function( ) {
-	playSpeech("Welcome To High Rock Sightseeing!", "female", "English");
+	playSound("assets/Welcome.mp3", false);
 });
 onEvent("Doors", "click", function( ) {
-	playSpeech("The Doors Are Closing! Please Stand Clear Of The Closing Doors!", "female", "English");
+	playSound("assets/Doors.mp3", false);
 });
 onEvent("NextObservation", "click", function( ) {
-	playSpeech("The Next Stop Is Observation Tower.", "female", "English");
+	playSound("assets/NextObservation.mp3", false);
 });
 onEvent("NextCamping", "click", function( ) {
-	playSpeech("The Next Stop Is Camping Area.", "female", "English");
+	playSound("assets/NextCamping.mp3", false);
 });
 onEvent("NextParking", "click", function( ) {
-	playSpeech("The Next Stop Is Parking Lot.", "female", "English");
+	playSound("assets/NextParking.mp3", false);
 });
 onEvent("Music", "click", function( ) {
 	setScreen("BackgroundMusic");
 });
 onEvent("ArrivingObservation", "click", function( ) {
-	playSpeech("Arriving At Observation Tower.", "female", "English");
+	playSound("assets/ArrivingObservation.mp3", false);
 });
 onEvent("ArrivingCamping", "click", function( ) {
-	playSpeech("Arriving At Camping Area", "female", "English");
+	playSound("assets/ArrivingCamping.mp3", false);
 });
 onEvent("ArrivingParking", "click", function( ) {
-	playSpeech("Arriving At Parking Lot.", "female", "English");
+	playSound("assets/ArrivingParking.mp3", false);
 });
 onEvent("Thank", "click", function( ) {
-	playSpeech("Thank You For Riding On High Rock Sightseeing! Have A Great Day!", "female", "English");
+	playSound("assets/Thank.mp3", false);
 });
 onEvent("Mingle", "click", function( ) {
 	playSound("assets/Mingle.mp3", false);
